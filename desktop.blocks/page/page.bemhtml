@@ -1,0 +1,16 @@
+block('page').match(!this._done)(
+    content()(function() {
+        this._done = true;
+        return [
+            {
+                elem: 'background_layer',
+                content: {
+                    elem: 'sky'
+                }
+            }, {
+                elem: 'wrapper',
+                content: applyNext()
+            }
+        ];
+    })
+)

@@ -1,0 +1,25 @@
+block('m-menu')(
+    tag()('div'),
+    content()(function () {
+        return [
+            this.ctx.content.map(function(item) {
+                return {
+                    block: 'm-menu-item',
+                    mods: item.state ? { state : item.state } : null,
+                    content: item.title,
+                    url: item.url
+                } 
+            })
+        ]
+    }),
+    match(this._done)(
+        content()(function() {
+            this._done = true;
+            return {
+                elem: 'panel',
+                tag: 'ul',
+                content: applyNext()
+            };
+        })
+    )
+)

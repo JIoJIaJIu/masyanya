@@ -1,0 +1,18 @@
+block('m-gallery')(
+	elem('images')(
+		tag()('ul'),
+		content()(function () {
+			return [
+				this.ctx.content.map(function(item) {
+					return {
+						tag: 'li',
+						content: {
+							tag: 'img',
+							attrs: { 'src' : item }
+						}
+					}
+				})
+			]
+		})
+	)
+)

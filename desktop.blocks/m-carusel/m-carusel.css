@@ -1,0 +1,50 @@
+.m-carusel {
+	width: 990px;
+	position: relative;
+	display: inline-block;
+}
+
+.m-carusel__gallery_container {
+	display: inline-block;
+	margin-left: -20px;
+	background-image: url('images/room_bg.png');
+}
+
+.m-carusel .m-arrow.m-arrow_direction_left {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 0 0 0 40px;	
+}
+
+.m-carusel .m-arrow.m-arrow_direction_right {
+	position: absolute;
+	top: 0;
+	right: 0;
+	margin: 0 60px 0 0;
+}
+
+.m-carusel_type_photos {
+	width: 999px;
+}
+
+.m-carusel_type_photos .m-gallery {
+	width: 999px;
+}
+
+.m-carusel_type_photos .m-gallery__images {
+	height: 514px;
+}
+
+.m-carusel_type_photos .m-gallery__images li img {
+	width: 999px;
+	height: 514px;
+}
+
+.m-carusel_type_photos .m-arrow.m-arrow_direction_left {
+	margin: 204px 0 0 27px;
+}
+
+.m-carusel_type_photos .m-arrow.m-arrow_direction_right {
+	margin: 204px 31px 0 0;
+}

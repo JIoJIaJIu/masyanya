@@ -1,0 +1,20 @@
+.m-link {
+    display: inline-block;
+    font-family: 'Circe_Regular', Arial, sans-serif;
+    color: #0151ee;
+    text-decoration: underline;
+    /*border-bottom: solid 1px #0151ee;*/
+}
+
+.m-link_size_px30 {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.m-link_size_px18 {
+	font-size: 18px;
+}
+
+.m-link_size_px14 {
+	font-size: 14px;
+}

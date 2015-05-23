@@ -1,0 +1,17 @@
+.m-security {
+    height: 242px;
+    background-image: url('images/security.png');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 125px;
+}
+
+.m-security .m-button {
+	margin-left: -15px;
+}
+
+.m-security .m-paragraph {
+	width: 250px;
+	margin: 20px auto;
+}

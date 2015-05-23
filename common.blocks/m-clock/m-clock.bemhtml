@@ -1,0 +1,6 @@
+block('m-clock')(
+	tag()('p'),
+	content()(function() {
+		return 'с ' + this.ctx.from + ' до ' + this.ctx.to
+	})
+)

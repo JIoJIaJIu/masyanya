@@ -1,0 +1,12 @@
+block('m-footer').match(this._done)(
+    content()(function() {
+        return {
+            elem: 'panel',
+            content: [
+                applyNext(), {
+                    block: 'clear'
+                }
+            ]
+        };
+    })
+)

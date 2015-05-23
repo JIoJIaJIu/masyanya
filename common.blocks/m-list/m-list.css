@@ -1,0 +1,11 @@
+.m-list {
+    min-width: 400px;
+    padding-left: 50%;
+    margin: 0;
+    margin-left: -120px;
+    text-align: left;
+    list-style: none;
+    font-family: 'Circe_Light', Arial, sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+}

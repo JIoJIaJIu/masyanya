@@ -1,0 +1,122 @@
+.m-vmenu-item {
+	width: auto;
+	height: 34px;
+
+	padding: 0;
+	padding-top: 7px;
+	padding-right: 10px;
+	padding-bottom: 7px;
+	margin: 0;
+	font-family: 'Circe_Light', 'Arial', sans-serif;
+	font-size: 12px;
+	color: #000;
+
+	line-height: 34px;
+	text-align: right;
+
+	list-style: none;
+}
+
+.m-vmenu-item__label {
+  	display: inline-block;
+  	position: relative;
+  	top: -14px;
+
+  	width: auto;
+
+  	margin-right: 7px;
+  	padding-left: 10px;
+  	padding-right: 12px;
+
+  	margin-right: 7px;
+
+  	text-decoration: dotted;
+  	cursor: pointer;
+}
+
+.m-vmenu-item__label a
+{
+	color: #000;
+  	text-decoration: none;
+  	border-bottom: 1px dotted #000;
+}
+
+.m-vmenu-item_state_selected .m-vmenu-item__label {
+  	display: inline-block;
+  	position: relative;
+  	top: -14px;
+
+  	width: auto;
+
+  	margin-right: 7px;
+  	padding-left: 10px;
+  	padding-right: 10px;
+
+  	border-style: solid;
+  	border-width: 2px;
+  	border-color: #d2928d;
+  	border-radius: 4px;
+
+  	background-color: #efb9b9;
+}
+
+.m-vmenu-item_state_selected .m-vmenu-item__label:after, .m-vmenu-item_state_selected .m-vmenu-item__label:before
+{
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.m-vmenu-item_state_selected .m-vmenu-item__label:after
+{
+	border-left-color: #efb9b9;
+	border-width: 7px;
+	margin-top: -7px;
+}
+.m-vmenu-item_state_selected .m-vmenu-item__label:before
+{
+	border-left-color: #d2928d;
+	border-width: 10px;
+	margin-top: -10px;
+}
+
+.m-vmenu-item__marker
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: #83a9f4;
+	border-radius: 50%;
+
+	padding: 0;
+	margin: 0;
+
+	background-color: #a9dbfa;
+
+	cursor: pointer;
+}
+
+.m-vmenu-item_state_selected .m-vmenu-item__marker
+{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+
+	border-style: solid;
+	border-width: 2px;
+	border-color: #d2928d;
+	border-radius: 50%;
+
+	padding: 0;
+	margin: 0;
+
+	background-color: #efb9b9;
+}

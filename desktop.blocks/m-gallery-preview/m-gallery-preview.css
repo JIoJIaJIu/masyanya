@@ -1,0 +1,14 @@
+.m-gallery-preview .m-gallery {
+	width: 1005px;
+	height: 102px;
+	margin-left: -5px;
+}
+
+.m-gallery-preview .m-gallery__images {
+	height: 102px;
+}
+.m-gallery-preview .m-gallery__images li img {
+	width: 193px;
+	height: 102px;
+	margin: 10px 4.5px 0 4.5px;
+}

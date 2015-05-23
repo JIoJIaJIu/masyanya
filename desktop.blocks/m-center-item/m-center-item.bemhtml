@@ -1,0 +1,41 @@
+block('m-center-item')(
+    content()(function() {
+        return [
+            {
+                elem: 'roof'
+            }, {
+                elem: 'wall',
+                content: [
+                    {
+                        elem: 'image',
+                        tag: 'a',
+                        attrs: { 'href' : this.ctx.addresUrl },
+                        content: [
+                            {
+                                tag: 'img',
+                                attrs: { 'src' : this.ctx.imageUrl }
+                            }, {
+                                block: 'm-addres',
+                                tag: 'a',
+                                attrs: { 'href' : this.ctx.addresUrl },
+                                addresName: this.ctx.addresName
+                            }, {
+                                block: 'm-paragraph',
+                                mods: { 'color' : this.ctx.type },
+                                content: 'Идёт набор в группу',
+                            },
+                            (this.ctx.type != 'red') ? {
+                                block: 'm-button',
+                                content: 'Записаться'
+                            } : {
+                                block: 'm-paragraph',
+                                mods: { 'size' : 'px14' },
+                                content: 'Запись в новую группу начнется с 1 января 2015'
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    })
+)

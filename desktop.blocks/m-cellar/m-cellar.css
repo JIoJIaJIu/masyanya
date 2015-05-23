@@ -1,0 +1,12 @@
+.m-cellar {
+	position: relative;
+	height: 718px;
+	background-image: url('images/cellar.png');
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.m-cellar .m-carusel {
+	margin: 8px 0 0 -18px;
+}

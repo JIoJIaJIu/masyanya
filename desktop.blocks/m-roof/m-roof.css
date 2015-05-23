@@ -1,0 +1,19 @@
+.m-roof {
+    max-width: 1230px;
+    height: 335px;
+    margin: 0 auto;
+    position: relative;
+    background-image: url('images/main_roof.png');
+    background-position: 50% bottom;
+    background-repeat: no-repeat;
+}
+
+.m-roof .m-info {
+    position: absolute;
+    right: 10px;
+}
+
+.m-roof .m-heading_type_main {
+    padding-top: 280px;
+    text-align: center;
+}

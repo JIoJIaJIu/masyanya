@@ -1,0 +1,8 @@
+block('m-addres')(
+	content()(function() {
+		return {
+			tag: 'span',
+			content: this.ctx.addresName
+		}
+	})
+)

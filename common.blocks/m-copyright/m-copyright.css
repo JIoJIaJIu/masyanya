@@ -1,0 +1,12 @@
+.m-copyright {
+    font-size: 16px;
+}
+
+.m-copyright__company {
+    font-family: 'Circe_Light', Arial, sans-serif;
+}
+
+.m-copyright__year {
+    font-family: 'Circe_Regular', Arial, sans-serif;
+    margin-top: 9px;
+}

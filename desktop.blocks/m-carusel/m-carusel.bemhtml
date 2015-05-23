@@ -1,0 +1,49 @@
+block('m-carusel')(
+	tag()('div'),
+	content()(function () {
+		return [
+			{
+				block: 'm-arrow',
+				mods: { 'direction' : 'left' }
+			}, {
+				elem: 'gallery_container',
+				tag: 'div',
+				content: [
+					{
+						block: 'm-gallery',
+						tag: 'div',
+						content: {
+							elem: 'images',
+							content: this.ctx.content
+						}
+					}
+				]
+			}, {
+				block: 'm-arrow',
+				mods: { 'direction' : 'right' }
+			}
+		]
+	}),
+	mod('type', 'photos')(
+		content()(function () {
+			return [
+				{
+					block: 'm-arrow',
+					mods: { 'direction' : 'left' }
+				}, {
+					block: 'm-gallery',
+					content: {
+						elem: 'images',
+						content: this.ctx.content
+					}
+				}, {
+				block: 'm-arrow',
+				mods: { 'direction' : 'right' }
+				}, {
+					block: 'm-gallery-preview',
+					content: this.ctx.content
+				}
+			]
+		})
+	)
+)

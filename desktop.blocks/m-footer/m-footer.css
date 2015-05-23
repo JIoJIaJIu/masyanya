@@ -1,0 +1,36 @@
+.m-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #60d6fb;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-shadow: 0px 0px 8px 1px rgba(0,0,0,0.5);
+}
+
+.m-footer .m-footer__panel {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.m-footer .m-copyright {
+    float: left;
+    margin: 12px 0 0 10px;
+    vertical-align: top;
+}
+
+.m-footer .m-promotion {
+    display: inline-block;
+    margin: 6px 0 0 82px;
+    vertical-align: top;
+}
+
+.m-footer .m-developer {
+    float: right;
+    margin: 14px 10px 0 0;
+    vertical-align: top;
+}
+
+.m-footer .clear {
+    clear: both;
+}

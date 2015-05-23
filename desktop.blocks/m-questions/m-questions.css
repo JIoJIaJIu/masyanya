@@ -1,0 +1,17 @@
+.m-questions {
+	text-align: center;
+	padding: 5px 0 30px 0;
+	background-color: #d4f6ff;
+}
+
+.m-questions .m-phone {
+	margin-top: 35px;
+}
+
+.m-questions .m-heading {
+	margin-top: 40px;
+}
+
+.m-questions .m-link {
+	margin-top: 23px;
+}

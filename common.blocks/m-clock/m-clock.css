@@ -1,0 +1,10 @@
+.m-clock {
+	font-family: 'Circe_Light', Arial, sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 27px;
+	margin: 0;
+	padding-left: 36px;
+	background-image: url('images/clock.png');
+	background-repeat: no-repeat;
+}

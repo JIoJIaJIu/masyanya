@@ -1,0 +1,23 @@
+block('m-copyright')(
+    content()(function () {
+        return [
+            {
+                elem: 'company',
+                content: this.ctx.content
+            }, {
+                elem: 'year',
+                content: this.ctx.year
+            }
+        ]
+    }),
+
+    match(!this._done)(
+        content()(function() {
+            this._done = true;
+            return {
+                elem: 'panel',
+                content: applyNext()
+            }
+        })
+    )
+)

@@ -1,0 +1,41 @@
+.m-paragraph {
+    font-family: 'Circe_Light', Arial, sans-serif;
+}
+
+.m-paragraph_size_px14 {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 auto;
+}
+
+.m-paragraph_size_px16 {
+    font-size: 16px;
+    line-height: 20px;
+    margin: 25px 0 0;
+}
+
+.m-paragraph_size_px18 {
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.m-paragraph_color_green {
+    font-size: 18px;
+    color: #00a700;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+.m-paragraph_color_yellow {
+    font-size: 18px;
+    color: #e77904;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}
+
+.m-paragraph_color_red {
+    font-size: 18px;
+    color: #a70000;
+    font-variant: small-caps;
+    text-transform: lowercase;
+}

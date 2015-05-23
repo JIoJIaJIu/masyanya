@@ -1,0 +1,18 @@
+.m-addres {
+	display: inline-block;
+	text-decoration: none;
+	background-image: url(images/marker.png);
+	background-repeat: no-repeat;
+	background-position: 0 0;
+	padding-left: 20px;
+	font-family: 'Circe_Light', Arial, sans-serif;
+	font-size: 14px;
+	color: #0151ee;
+	height: 24px;
+	line-height: 30px;
+}
+
+.m-addres span {
+	border-bottom: dotted 1px #0151ee;
+	padding-bottom: 2px;
+}

@@ -1,0 +1,14 @@
+.m-centers {
+	text-align: center;
+	padding: 75px 10px 0;
+	background-color: #fff;
+}
+
+.m-centers__panel {
+    padding: 35px 0;
+}
+
+.m-centers .m-paragraph {
+	display: inline-block;
+    width: 600px;
+}

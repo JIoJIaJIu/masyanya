@@ -1,0 +1,19 @@
+.m-third-floor {
+	height: 176px;
+	background-image: url('images/third_floor.png');
+	background-position: 50% 0;
+	background-repeat: no-repeat;
+	padding-top: 27px;
+	text-align: center;
+}
+
+.m-third-floor .m-paragraph{
+	display: inline-block;
+	width: 950px;
+	margin-left: -15px;
+}
+
+.m-third-floor .m-heading_type_subsection {
+	margin-left: -34px;
+	margin-top: 20px;
+}

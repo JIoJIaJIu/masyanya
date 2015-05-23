@@ -1,0 +1,27 @@
+.m-heading {
+    font-family: 'a_AvanteRough-Light', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #000;
+    margin: 0;
+}
+
+.m-heading_type_main {    
+    font-size: 27px;
+    line-height: 27px;
+}
+
+.m-heading_size_px26 {
+    font-size: 26px;
+    line-height: 26px;
+}
+
+.m-heading_type_subsection {
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.m-heading_size_px18 {
+    font-size: 18px;
+    line-height: 18px;
+}

@@ -1,0 +1,19 @@
+.m-gallery {
+    width: 700px;
+    overflow: hidden;
+}
+
+.m-gallery__images {
+    width: 9999px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.m-gallery__images li {
+    float: left;
+}
+
+.m-gallery__images li img {
+    width: 700px;
+}

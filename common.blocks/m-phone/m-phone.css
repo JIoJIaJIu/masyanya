@@ -1,0 +1,15 @@
+.m-phone {
+	color: #000;
+	margin: 0;
+}
+.m-phone_size_small {
+	font-family: 'Circe_Light';
+	font-size: 28px;
+	line-height: 28px;
+}
+
+.m-phone_size_big {
+	font-family: 'Circe_Regular';
+	font-size: 60px;
+	line-height: 60px;
+}

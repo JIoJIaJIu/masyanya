@@ -1,0 +1,11 @@
+/*block('m-info')(
+    match(this._done)(
+        content()(function() {
+            this._done = true;
+            return {
+                elem: 'panel',
+                content: applyNext()
+            };
+        })
+    )
+)*/

@@ -1,0 +1,19 @@
+.m-second-floor {
+    height: 168px;
+    background-image: url('images/second_floor.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    text-align: center;
+    padding-top: 27px;
+}
+
+.m-second-floor .m-paragraph {
+    display: inline-block;
+    width: 950px;
+    margin-left: -15px;
+}
+
+.m-second-floor .m-heading_type_subsection {
+    margin-left: -15px;
+    margin-top: 15px;
+}

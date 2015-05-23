@@ -1,0 +1,22 @@
+.m-menu {
+    width: 100%;
+    height: 39px;
+    background-color: #60d6fb;
+    box-shadow: 0px 0px 8px 1px rgba(0, 0, 0, 0.5);
+}
+
+.m-menu__panel {
+    margin: 0;
+    padding: 0;
+    max-width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.m-menu__panel .m-menu-item:last-child a {
+    border-right: 1px solid #20b1e2;
+}
+
+.m-menu__panel .m-menu-item.m-menu-item_state_selected:last-child  a {
+    border: none;
+}

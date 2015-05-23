@@ -1,0 +1,26 @@
+.m-menu-item {
+    display: inline-block;
+    line-height: 27px;
+    font-family: Circe_Light, Arial, sans-serif;
+    font-size: 16px;
+    color: #2f006e;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.m-menu-item a {
+    display: inline-block;
+    text-decoration: none;
+    height: 27px;
+    padding: 0 14px;
+    margin: 6px 0;
+    border-left: 1px solid #20b1e2;
+}
+
+.m-menu-item_state_selected {
+    background-color: #efb9b9;
+}
+
+.m-menu-item_state_selected a, .m-menu-item_state_selected + .m-menu-item a {
+    border: none;
+}

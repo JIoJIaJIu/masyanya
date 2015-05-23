@@ -1,0 +1,23 @@
+.m-social-item {
+    display: inline-block;
+    border-radius: 50px;
+    margin-right: 8px;
+    width: 24px;
+    height: 24px;
+}
+
+.m-social-item_type_vk {
+    background-image: url(images/vk.png);
+}
+
+.m-social-item_type_fb {
+    background-image: url(images/fb.png);
+}
+
+.m-social-item_type_tw {
+    background-image: url(images/tw.png);
+}
+
+.m-social-item_type_ok {
+    background-image: url(images/ok.png);
+}

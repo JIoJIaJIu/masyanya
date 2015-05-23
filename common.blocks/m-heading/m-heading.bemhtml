@@ -1,0 +1,11 @@
+block('m-heading').mod('type', 'main')(
+    tag()('h1')
+)
+
+block('m-heading').mod('size', 'px26')(
+    tag()('h2')
+)
+
+block('m-heading').mod('type', 'subsection')(
+    tag()('h3')
+)

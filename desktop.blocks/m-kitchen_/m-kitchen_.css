@@ -1,0 +1,34 @@
+.m-kitchen_ {
+    height: 508px;
+    background-image: url('images/kitchen_.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    text-align: center;
+}
+
+.m-kitchen_ .m-carusel {
+    height: 509px;
+}
+
+.m-kitchen_ .m-carusel .m-carusel__gallery_container {
+    display: inline-block;
+    width: 700px;
+    height: 509px;
+    background-image: url("images/kitchen_room.png");
+}
+
+.m-kitchen_ .m-carusel .m-arrow.m-arrow_direction_left {
+    margin-top: 225px;
+}
+
+.m-kitchen_ .m-carusel .m-arrow.m-arrow_direction_right {
+    margin-top: 225px;
+}
+
+.m-kitchen_ .m-gallery__images {
+    height: 510px;
+}
+
+.m-kitchen_ .m-gallery__images li img {
+    height: 510px;
+}

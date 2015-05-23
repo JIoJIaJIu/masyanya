@@ -1,0 +1,22 @@
+.m-info {
+    width: 323px;
+    height: 178px;
+    background-image: url('images/info-cloud.png');
+    background-position: 100% 39px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    padding: 58px 0 0 73px;
+}
+
+.m-info .m-button {
+    margin-bottom: 15px;
+}
+
+.m-info .m-clock {
+    margin-top: 5px;
+    margin-left: 79px;
+}
+
+.m-info .m-link {
+    margin: 4px 0 0 79px;
+}

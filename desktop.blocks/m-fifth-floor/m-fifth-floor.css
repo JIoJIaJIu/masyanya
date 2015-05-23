@@ -1,0 +1,19 @@
+.m-fifth-floor {
+    height: 170px;
+    background-image: url("images/fifth_floor.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.m-fifth-floor .m-paragraph {
+    display: inline-block;
+    width: 950px;
+    margin-left: -15px;
+}
+
+.m-fifth-floor .m-heading_type_subsection {
+    margin-left: -35px;
+    margin-top: 15px;
+}

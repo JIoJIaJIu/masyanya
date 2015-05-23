@@ -1,0 +1,18 @@
+.m-first-floor {
+    height: 119px;
+    background-image: url('images/first_floor.png');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    padding: 18px 0 0 0;
+    text-align: center;
+}
+
+.m-first-floor .m-paragraph {
+    margin: 0 auto;
+    width: 950px;
+}
+
+.m-first-floor .m-heading {
+    margin-left: -35px;
+    margin-top: 25px;
+}

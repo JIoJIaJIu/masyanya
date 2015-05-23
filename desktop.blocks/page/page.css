@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Circe_Regular';
+    src: url('fonts/Circe_OT/Regular/CRC55.eot');
+    src: url('fonts/Circe_OT/Regular/CRC55.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Circe_OT/Regular/CRC55.woff') format('woff'),
+    url('fonts/Circe_OT/Regular/CRC55.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe_Extra-Light';
+    src: url('fonts/Circe_OT/Extra_Light/CRC25.eot');
+    src: url('fonts/Circe_OT/Extra_Light/CRC25.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Circe_OT/Extra_Light/CRC25.woff') format('woff'),
+    url('fonts/Circe_OT/Extra_Light/CRC25.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Circe_Light';
+    src: url('fonts/Circe_OT/Light/CRC35.eot');
+    src: url('fonts/Circe_OT/Light/CRC35.eot?#iefix') format('embedded-opentype'),
+    url('fonts/Circe_OT/Light/CRC35.woff') format('woff'),
+    url('fonts/Circe_OT/Light/CRC35.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'a_AvanteRough_Light';
+    src: url('fonts/AvanteRough/a_AvanteRough_Light.eot');
+    src: url('fonts/AvanteRough/a_AvanteRough_Light.eot?#iefix') format('embedded-opentype'),
+    url('fonts/AvanteRough/a_AvanteRough_Light.svg#a_AvanteRough_Light') format('svg'),
+    url('fonts/AvanteRough/a_AvanteRough_Light.woff') format('woff'),
+    url('fonts/AvanteRough/a_AvanteRough_Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+}
+
+.page {
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    min-width: 1000px;
+}
+
+.page__wrapper {
+    height: 100%;
+    padding-bottom: 112px;
+}
+
+.page__background_layer {
+    position: fixed;
+    background-image: linear-gradient(to top, #d8fcff, #85e1ff );;
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.page__sky {
+    background-image: url("images/main_background.png");
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.page__wrapper .g-footer {
+    position: absolute;
+    bottom: 0;
+}
