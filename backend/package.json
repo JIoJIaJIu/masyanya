@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/JIoJIaJIu/masyanya/issues"
   },
-  "homepage": "https://github.com/JIoJIaJIu/masyanya"
+  "homepage": "https://github.com/JIoJIaJIu/masyanya",
+  "dependencies": {
+    "express": "^4.12.4",
+    "winston": "^1.0.0"
+  }
 }

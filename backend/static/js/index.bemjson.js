@@ -1,0 +1,1 @@
+../../../frontend/desktop.bundles/index/index.bemjson.js
