@@ -13,7 +13,6 @@ var BEM = {
 
         var json = typeof bemjson == 'object' ? JSON.stringify(bemjson) : bemjson;
         var js = util.format("BEMHTML.apply(%s);", json);
-        console.log(json);
         return vm.runInContext(js, this._sandbox);
     },
 
