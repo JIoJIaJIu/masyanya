@@ -1,3 +1,5 @@
+process.env.YENV = 'production';
+
 var PATH = require('path');
 
 MAKE.decl('Arch', {
