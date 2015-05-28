@@ -1,6 +1,7 @@
 {
 	"freeze_paths": {
-		"desktop.blocks/**": "images/",
-		"common.blocks/**": "images/"
+		"desktop.blocks/**/images": "images/",
+		"common.blocks/**/images": "images/",
+		"desktop.blocks/page/fonts/**": "fonts/"
 	}
 }
