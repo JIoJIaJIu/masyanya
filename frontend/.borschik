@@ -1,7 +1,7 @@
 {
-	"freeze_paths": {
-		"desktop.blocks/**/images": "images/",
-		"common.blocks/**/images": "images/",
-		"desktop.blocks/page/fonts/**": "fonts/"
-	}
+    "freeze_paths": {
+        "desktop.blocks/page/fonts/**": "fonts/",
+        "desktop.blocks/**": "images/",
+        "common.blocks/**": "images/"
+    }
 }
