@@ -10,6 +10,11 @@ var app = express();
 
 app.use(express.static('static'));
 app.use(express.static('static/css/'));
+app.use('/fonts', express.static('static/fonts', {
+    setHeaders: function (res) {
+        res.setHeader("Content-Encoding", "gzip");
+    }
+}));
 
 app.get('/', function (req, res) {
     logger.info("Request /");
