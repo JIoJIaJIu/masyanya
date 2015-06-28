@@ -1,14 +1,15 @@
 .m-heading {
-    font-family: 'a_AvanteRough_Light', Arial, sans-serif;
+    font-family: 'argh', Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000;
     margin: 0;
+    font-weight: 400;
 }
 
 .m-heading_type_main {    
-    font-size: 27px;
-    line-height: 27px;
+    font-size: 25px;
+    line-height: 25px;
 }
 
 .m-heading_size_px26 {

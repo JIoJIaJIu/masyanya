@@ -39,6 +39,16 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'argh';
+    src: url('fonts/aaargh/aaargh_cyrillic.eot');
+    src: url('fonts/aaargh/aaargh_cyrillic.eot?#iefix') format('embedded-opentype'),
+    url('fonts/aaargh/aaargh_cyrillic.woff') format('woff'),
+    url('fonts/aaargh/aaargh_cyrillic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 html, body {
     margin: 0;
     padding: 0;

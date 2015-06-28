@@ -4,6 +4,8 @@ bem-core/**
 node_modules/**
 images/
 fonts/
+appache/
+archive.zip
 
 desktop.bundles/index/**
 !desktop.bundles/index/index.bemjson.js
