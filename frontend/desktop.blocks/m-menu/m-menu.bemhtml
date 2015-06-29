@@ -1,25 +1,19 @@
 block('m-menu')(
-    tag()('div'),
+    js()(true),
+    tag()('ul'),
     content()(function () {
         return [
             this.ctx.content.map(function(item) {
                 return {
-                    block: 'm-menu-item',
-                    mods: item.state ? { state : item.state } : null,
-                    content: item.title,
-                    url: item.url
+                    elem: 'item',
+                    tag: 'li',
+                    content: {
+                        block: 'm-link',
+                        url: item.url,
+                        content: item.title
+                    }
                 } 
             })
         ]
-    }),
-    match(this._done)(
-        content()(function() {
-            this._done = true;
-            return {
-                elem: 'panel',
-                tag: 'ul',
-                content: applyNext()
-            };
-        })
-    )
+    })
 )
