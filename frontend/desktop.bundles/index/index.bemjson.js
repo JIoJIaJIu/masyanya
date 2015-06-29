@@ -9,38 +9,40 @@
     ],
     scripts: [{ elem : 'js', url : '_index.js' }],
     //mods : { theme : 'islands' },
-    content : [
-        {
+    content : [{
+            tag: 'a',
+            attrs: { name: 'top', style: 'position: absolute; top: 0' }
+        }, {
             block: 'm-vmenu',
             content: [
                 {
                     title: 'Кто мы?',
-                    url: '#',
+                    url: '#who',
                     state: 'selected'
                 }, {
                     title: 'Режим дня',
-                    url: '#',
+                    url: '#schedule',
                 }, {
                     title: 'Занятия',
-                    url: '#',
+                    url: '#classes',
                 }, {
                     title: 'Питание',
-                    url: '#',
+                    url: '#nutrition',
                 }, {
                     title: 'Безопасность',
-                    url: '#',
+                    url: '#security',
                 }, {
                     title: 'Фотогалерея',
-                    url: '#',
+                    url: '#photos',
                 }, {
                     title: 'Наши центры',
-                    url: '#',
+                    url: '#centers',
                 }, {
                     title: 'Записаться',
-                    url: '#',
+                    url: '#sign',
                 }, {
                     title: 'Сотрудничество',
-                    url: '#',
+                    url: '#cooperation',
                 }
             ]
         }, {
@@ -50,35 +52,35 @@
                 content: [
                     {
                         title: 'Масяня',
-                        url: '#',
+                        url: '#top',
                         state: 'selected'
                     }, {
                         title: 'О нас',
-                        url: '#'
+                        url: '#who'
                     }, {
                         title: 'Режим дня',
-                        url: '#'
+                        url: '#schedule'
                     }, {
                         title: 'Занятия',
-                        url: '#'
+                        url: '#classes'
                     }, {
                         title: 'Питание',
-                        url: '#'
+                        url: '#nutrition'
                     }, {
                         title: 'Безопасность',
-                        url: '#'
+                        url: '#security'
                     }, {
                         title: 'Фото',
-                        url: '#'
+                        url: '#photos'
                     }, {
                         title: 'Наши центры',
-                        url: '#'
+                        url: '#centers'
                     }, {
                         title: 'Контакты',
-                        url: '#'
+                        url: '#contacts'
                     }, {
                         title: 'Личный кабинет',
-                        url: '#'
+                        url: '#parea'
                     }
                 ]
             }
@@ -108,6 +110,7 @@
                 }, {
                     block: 'm-heading',
                     mods: { 'type' : 'main' },
+                    anchor: 'who',
                     content: 'Сеть частных домашних детских садиков «Масяня»'
                 }
             ]
@@ -128,7 +131,8 @@
                 }, {
                     block: 'm-heading',
                     mods: { 'type' : 'subsection' },
-                    content: 'Режим дня',
+                    anchor: 'schedule',
+                    content: 'Режим дня'
                 }
             ]
         }, {
@@ -158,6 +162,7 @@
                 {
                     block: 'm-heading',
                     mods: { 'size' : 'px26' },
+                    anchor: 'classes',
                     content: 'Увлекательный досуг для ваших детей'
                 }, {
                     block: 'm-paragraph',
@@ -187,6 +192,7 @@
                 {
                     block: 'm-heading',
                     mods: { 'size' : 'px26' },
+                    anchor: 'nutrition',
                     content: 'Питание'
                 }, {
                     block: 'm-paragraph',
@@ -221,6 +227,7 @@
                 {
                     block: 'm-heading',
                     mods: { 'size' : 'px26' },
+                    anchor: 'security',
                     content: 'Убедитесь сами в безопасности вашего ребёнка'
                 }, {
                     block: 'm-paragraph',
@@ -258,6 +265,7 @@
                 {
                     block: 'm-heading',
                     mods: { 'size' : 'px26' },
+                    anchor: 'photos',
                     content: 'фотогалерея'
                 }, {
                     block: 'm-paragraph',
@@ -309,6 +317,7 @@
                 {
                     block: 'm-heading',
                     mods: { 'size' : 'px26' },
+                    anchor: 'centers',
                     content: 'Наши Садики'
                 }, {
                     block: 'm-paragraph',
@@ -366,6 +375,7 @@
                 {
                     block: 'm-heading',
                     mods: { 'size' : 'px26' },
+                    anchor: 'contacts',
                     content: 'Задать вопросы и узнать цены вы можете по телефону:'
                 }, {
                     block: 'm-phone',
@@ -387,6 +397,7 @@
                 {
                     block: 'm-heading',
                     mods: { 'size' : 'px26' },
+                    anchor: 'cooperation',
                     content: 'Хотите Сотрудничать? — Мы ждём ваших писем и звонков'
                 }, {
                     block: 'm-paragraph',
