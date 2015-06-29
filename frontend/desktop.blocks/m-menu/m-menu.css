@@ -1,3 +1,7 @@
+/**
+ *  Горизонтальное меню
+ **/
+
 .m-menu {
     position: fixed;
     margin: 0 auto;
@@ -47,4 +51,129 @@
     padding-right: 11px;
     line-height: 40px;
     height: 40px;
+}
+
+/**
+ *  Вертикальное меню
+ **/
+
+.m-menu_vertical {
+    display: block;
+    width: auto;
+    min-width: 0;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    margin-top: -230px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.m-menu_vertical .m-menu__item {
+    display: list-item;
+    width: auto;
+    height: 34px;
+    padding: 7px 10px 7px 0;
+    margin: 0;
+    font-family: 'Circe_Light', 'Arial', sans-serif;
+    font-size: 12px;
+    color: #000;
+    line-height: 34px;
+    text-align: right;
+}
+
+.m-menu_vertical .m-menu__item .m-link {
+    border: none;
+}
+
+.m-menu_vertical .m-menu__item:hover,
+.m-menu_vertical .m-menu__item_selected {
+    background: transparent;
+}
+
+.m-menu_vertical .m-menu__item:hover .m-menu__item-label,
+.m-menu_vertical .m-menu__item_selected .m-menu__item-label {
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    width: auto;
+    margin-right: 7px;
+    padding: 0 10px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d2928d;
+    border-radius: 4px;
+    background-color: #efb9b9;
+}
+
+.m-menu_vertical .m-menu__item:hover .m-menu__item-label:after,
+.m-menu_vertical .m-menu__item:hover .m-menu__item-label:before,
+.m-menu_vertical .m-menu__item_selected .m-menu__item-label:after,
+.m-menu_vertical .m-menu__item_selected .m-menu__item-label:before {
+    left: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.m-menu_vertical .m-menu__item:hover .m-menu__item-label:after,
+.m-menu_vertical .m-menu__item_selected .m-menu__item-label:after {
+    border-left-color: #efb9b9;
+    border-width: 7px;
+    margin-top: -7px;
+}
+
+.m-menu_vertical .m-menu__item:hover .m-menu__item-label:before,
+.m-menu_vertical .m-menu__item_selected .m-menu__item-label:before {
+    border-left-color: #d2928d;
+    border-width: 10px;
+    margin-top: -10px;
+}
+
+.m-menu__item-label {
+    display: inline-block;
+    position: relative;
+    top: -14px;
+    width: auto;
+    margin-right: 7px;
+    padding: 0 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.m-menu__item-label-content {
+    color: #000;
+    border-bottom: 1px dotted #000;
+}
+
+.m-menu__item-marker {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #83a9f4;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    background-color: #a9dbfa;
+    cursor: pointer;
+}
+
+.m-menu_vertical .m-menu__item:hover .m-menu__item-marker,
+.m-menu_vertical .m-menu__item_selected .m-menu__item-marker {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d2928d;
+    border-radius: 50%;
+    padding: 0;
+    margin: 0;
+    background-color: #efb9b9;
 }

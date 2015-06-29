@@ -13,7 +13,8 @@
             tag: 'a',
             attrs: { name: 'top', style: 'position: absolute; top: 0' }
         }, {
-            block: 'm-vmenu',
+            block: 'm-menu',
+            mods: { vertical: true },
             content: [
                 {
                     title: 'Кто мы?',

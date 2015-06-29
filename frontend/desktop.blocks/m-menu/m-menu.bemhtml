@@ -15,5 +15,37 @@ block('m-menu')(
                 } 
             })
         ]
-    })
+    }),
+
+    mod('vertical', true)(
+        content()(function () {
+            return [
+                this.ctx.content.map(function(item) {
+                    return {
+                        elem: 'item',
+                        tag: 'li',
+                        content: {
+                            tag: 'a',
+                            attrs: {
+                                href: item.url,
+                            },
+                            content: [{
+                                    elem: 'item-label',
+                                    tag: 'span',
+                                    content: {
+                                        elem: 'item-label-content',
+                                        tag: 'span',
+                                        content: item.title
+                                    }
+                                }, {
+                                    elem: 'item-marker',
+                                    tag: 'span',
+                                    content: ''
+                            }]
+                        }
+                    }
+                })
+            ]
+        })
+    )
 )
