@@ -1,10 +1,12 @@
-.m-heading {
+.m-heading,
+.m-heading .m-link {
     font-family: 'argh', Arial, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #000;
     margin: 0;
     font-weight: 400;
+    text-decoration: none;
 }
 
 .m-heading_type_main {    

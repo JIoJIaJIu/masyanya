@@ -1,3 +1,13 @@
+block('m-heading').match(function () { return this.ctx.anchor; })(
+    content()(function () {
+        return applyCtx({
+            block: 'm-link',
+            name: this.ctx.anchor,
+            content: this.ctx.content
+        })
+    })
+)
+
 block('m-heading').mod('type', 'main')(
     tag()('h1')
 )
