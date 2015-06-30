@@ -14,12 +14,12 @@
             attrs: { name: 'top', style: 'position: absolute; top: 0' }
         }, {
             block: 'm-menu',
+            js: 'true',
             mods: { vertical: true },
             content: [
                 {
                     title: 'Кто мы?',
-                    url: '#who',
-                    state: 'selected'
+                    url: '#who'
                 }, {
                     title: 'Режим дня',
                     url: '#schedule',
@@ -47,44 +47,41 @@
                 }
             ]
         }, {
-            block: 'm-header',
-            content: {
                 block: 'm-menu',
                 content: [
                     {
                         title: 'Масяня',
-                        url: '#top',
-                        state: 'selected'
+                        url: '#',
+                        selected: true
                     }, {
                         title: 'О нас',
-                        url: '#who'
+                        url: '#'
                     }, {
                         title: 'Режим дня',
-                        url: '#schedule'
+                        url: '#'
                     }, {
                         title: 'Занятия',
-                        url: '#classes'
+                        url: '#'
                     }, {
                         title: 'Питание',
-                        url: '#nutrition'
+                        url: '#'
                     }, {
                         title: 'Безопасность',
-                        url: '#security'
+                        url: '#'
                     }, {
                         title: 'Фото',
-                        url: '#photos'
+                        url: '#'
                     }, {
                         title: 'Наши центры',
-                        url: '#centers'
+                        url: '#'
                     }, {
                         title: 'Контакты',
-                        url: '#contacts'
+                        url: '#'
                     }, {
                         title: 'Личный кабинет',
-                        url: '#parea'
+                        url: '#'
                     }
                 ]
-            }
         }, {
             block: 'm-roof',
             content: [
@@ -110,7 +107,7 @@
                     ]
                 }, {
                     block: 'm-heading',
-                    mods: { 'type' : 'main' },
+                    mods: { 'type' : 'main', 'anchor': true },
                     anchor: 'who',
                     content: 'Сеть частных домашних детских садиков «Масяня»'
                 }
@@ -131,7 +128,7 @@
                     ]
                 }, {
                     block: 'm-heading',
-                    mods: { 'type' : 'subsection' },
+                    mods: { 'type' : 'subsection', 'anchor': true },
                     anchor: 'schedule',
                     content: 'Режим дня'
                 }
@@ -162,7 +159,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26' },
+                    mods: { 'size' : 'px26', 'anchor': true },
                     anchor: 'classes',
                     content: 'Увлекательный досуг для ваших детей'
                 }, {
@@ -192,7 +189,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26' },
+                    mods: { 'size' : 'px26', 'anchor': true },
                     anchor: 'nutrition',
                     content: 'Питание'
                 }, {
@@ -227,7 +224,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26' },
+                    mods: { 'size' : 'px26', 'anchor': true },
                     anchor: 'security',
                     content: 'Убедитесь сами в безопасности вашего ребёнка'
                 }, {
@@ -265,7 +262,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26' },
+                    mods: { 'size' : 'px26', 'anchor': true },
                     anchor: 'photos',
                     content: 'фотогалерея'
                 }, {
@@ -317,7 +314,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26' },
+                    mods: { 'size' : 'px26', 'anchor': true },
                     anchor: 'centers',
                     content: 'Наши Садики'
                 }, {
@@ -375,7 +372,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26' },
+                    mods: { 'size' : 'px26', 'anchor': true },
                     anchor: 'contacts',
                     content: 'Задать вопросы и узнать цены вы можете по телефону:'
                 }, {
@@ -397,7 +394,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26' },
+                    mods: { 'size' : 'px26', 'anchor': true },
                     anchor: 'cooperation',
                     content: 'Хотите Сотрудничать? — Мы ждём ваших писем и звонков'
                 }, {
