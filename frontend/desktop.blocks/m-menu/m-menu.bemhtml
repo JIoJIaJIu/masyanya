@@ -1,5 +1,4 @@
 block('m-menu')(
-    js()(true),
     tag()('ul'),
     content()(function () {
         return [
@@ -7,6 +6,7 @@ block('m-menu')(
                 return {
                     elem: 'item',
                     tag: 'li',
+                    mods: { selected: item.selected },
                     content: {
                         block: 'm-link',
                         url: item.url,
@@ -24,7 +24,9 @@ block('m-menu')(
                     return {
                         elem: 'item',
                         tag: 'li',
+                        mods: { selected: item.selected },
                         content: {
+                            elem: 'item-link',
                             tag: 'a',
                             attrs: {
                                 href: item.url,

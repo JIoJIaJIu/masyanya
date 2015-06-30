@@ -3,6 +3,7 @@
  **/
 
 .m-menu {
+    z-index: 1;
     position: fixed;
     margin: 0 auto;
     text-align: center;
