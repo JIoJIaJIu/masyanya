@@ -1,13 +1,14 @@
 {
-	"name": "masyanya_frontend",
-	"version": "0.0.1",
-	"engines": {
-		"node": "*",
-		"npm": "*"
-	},
-	"dependencies": {
-		"bem": "*",
-		"borschik": "*",
-		"q": "^1.1.2"
-	}
+    "name": "masyanya_frontend",
+    "version": "0.0.1",
+    "engines": {
+        "node": "*",
+        "npm": "*"
+    },
+    "dependencies": {
+        "bem": "*",
+        "borschik": "*",
+        "q": "^1.1.2",
+        "stylus": "0.50.0"
+    }
 }
