@@ -1,0 +1,13 @@
+.m-registration {
+    padding: 50px 0;
+    text-align: center;
+    background-color: #fff;
+    background: url(images/background.png) #fff repeat-x 0 50%;
+}
+
+.m-registration__content {
+    max-width: 550px;
+    background-color: white;
+    margin: -50px auto;
+    padding: 50px 0;
+}

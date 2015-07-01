@@ -5,7 +5,8 @@
     head : [
         { elem : 'meta', attrs : { name : 'description', content : '' } },
         { elem : 'meta', attrs : { name : 'viewport', content : 'width=device-width, initial-scale=1' } },
-        { elem : 'css', url : '_index.css' }
+        { elem : 'css', url : '_index.css' },
+        { elem : 'css', url : 'index.styl.css' }
     ],
     scripts: [{ elem : 'js', url : '_index.js' }],
     //mods : { theme : 'islands' },
@@ -372,8 +373,7 @@
             content: [
                 {
                     block: 'm-heading',
-                    mods: { 'size' : 'px26', 'anchor': true },
-                    anchor: 'contacts',
+                    mods: { 'size' : 'px26' },
                     content: 'Задать вопросы и узнать цены вы можете по телефону:'
                 }, {
                     block: 'm-phone',
@@ -389,6 +389,159 @@
                     content: 'support@masyanya.club'
                 }
             ]
+        }, {
+            block: 'm-registration',
+            content: {
+                elem: 'content',
+                content: [
+                    {
+                        block: 'm-heading',
+                        mods: { 'size': 'px26', 'anchor': true },
+                        anchor: 'sign',
+                        content: 'уже хотите записаться?'
+                    }, {
+                        block: 'm-paragraph',
+                        mods: { 'size': 'px18' },
+                        content: 'Выберите садик и зпаолните все поля формы'
+                    }, {
+                        block : 'form',
+                        mods : {
+                            theme : 'islands',
+                            'has-validation' : true,
+                            message : 'text'
+                        },
+                        method : 'GET',
+                        content : [
+                            {
+                                elem : 'content',
+                                content : [
+                                    {
+                                        block : 'form-field',
+                                        name : 'years',
+                                        mods : {
+                                            theme : 'islands',
+                                            type : 'select',
+                                            'has-validation' : true,
+                                            required : true,
+                                            message : 'text'
+                                        },
+                                        content : [
+                                            {
+                                                block : 'label',
+                                                mods : { theme : 'islands' },
+                                                content : 'Выберите садик'
+                                            },
+                                            {
+                                                block : 'select',
+                                                mods : { mode : 'check', theme : 'islands', size : 'l' },
+                                                text : 'Программа конференции',
+                                                options : [
+                                                    { text : '1', val : 1 },
+                                                    { text : '2', val : 2 }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        block : 'form-field',
+                                        name : 'firstName',
+                                        mods : {
+                                            theme : 'islands',
+                                            type : 'input',
+                                            'has-validation' : true,
+                                            required : true,
+                                            message : 'text'
+                                        },
+                                        js : {
+                                            required : {
+                                                message : 'Super required!'
+                                            }
+                                        },
+                                        content : [
+                                            {
+                                                block : 'label',
+                                                mods : { theme : 'islands' },
+                                                content : 'ФИО'
+                                            },
+                                            {
+                                                block : 'input',
+                                                mods : { theme : 'islands', size : 'l' }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        block : 'form-field',
+                                        name : 'firstName',
+                                        mods : {
+                                            theme : 'islands',
+                                            type : 'input',
+                                            'has-validation' : true,
+                                            required : true,
+                                            message : 'text'
+                                        },
+                                        js : {
+                                            required : {
+                                                message : 'Super required!'
+                                            }
+                                        },
+                                        content : [
+                                            {
+                                                block : 'label',
+                                                mods : { theme : 'islands' },
+                                                content : 'Телефон'
+                                            },
+                                            {
+                                                block : 'input',
+                                                mods : { theme : 'islands', size : 'l' }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        block : 'form-field',
+                                        name : 'firstName',
+                                        mods : {
+                                            theme : 'islands',
+                                            type : 'input',
+                                            'has-validation' : true,
+                                            required : true,
+                                            message : 'text'
+                                        },
+                                        js : {
+                                            required : {
+                                                message : 'Super required!'
+                                            }
+                                        },
+                                        content : [
+                                            {
+                                                block : 'label',
+                                                mods : { theme : 'islands' },
+                                                content : 'E-mail'
+                                            },
+                                            {
+                                                block : 'input',
+                                                mods : { theme : 'islands', size : 'l' }
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                elem : 'footer',
+                                content : [
+                                    {
+                                        block : 'button',
+                                        mix: {
+                                            block: 'm-button'
+                                        },
+                                        mods : { size : 'l', type : 'submit', view : 'action' },
+                                        text : 'Записаться в садик'
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
         }, {
             block: 'm-cooperation',
             content: [

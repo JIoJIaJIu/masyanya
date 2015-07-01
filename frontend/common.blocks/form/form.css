@@ -1,0 +1,14 @@
+.form {
+    width: 300px;
+    min-width: 450px;
+    margin: 30px auto 0;
+}
+
+.form__footer {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.form__footer .button {
+    width: 65%;
+}
